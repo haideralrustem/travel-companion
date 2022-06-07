@@ -14,8 +14,19 @@ function App() {
             
       <Header />
 
-      <List />
-      <Map />
+      <Grid container spacing={2}>
+        <Grid item xs={3}>
+          <List />
+        </Grid>
+
+        <Grid item xs={8}>
+          <Map />
+        </Grid>
+
+      </Grid>
+
+     
+      
     </div>
   );
 }

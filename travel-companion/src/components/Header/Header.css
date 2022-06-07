@@ -1,3 +1,7 @@
 .mui-toolbar {
     justify-content: space-between;
 }
+
+.right-most-div {
+    display: flex;
+}

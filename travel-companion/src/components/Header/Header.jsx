@@ -66,20 +66,26 @@ export default function Header() {
                             Travel Companion
                         </Typography>
 
-                        <Typography variant="h5" >
-                            Expolre new places
-                        </Typography>
+                        
+                        <div className='right-most-div'>
+                            <Typography variant="h5" >
+                                    Expolre new places ....
+                            </Typography>
+                            <Search>
+                            
+                                <SearchIconWrapper>
+                                    <SearchIcon />
+                                </SearchIconWrapper>
 
-                        <Search>
-                            <SearchIconWrapper>
-                                <SearchIcon />
-                            </SearchIconWrapper>
+                                <StyledInputBase
+                                    placeholder="Search…"
+                                    inputProps={{ 'aria-label': 'search' }}
+                                />
+                            </Search>
 
-                            <StyledInputBase
-                                placeholder="Search…"
-                                inputProps={{ 'aria-label': 'search' }}
-                            />
-                        </Search>
+
+                        </div>
+                       
 
                     </Toolbar>
                 </AppBar>

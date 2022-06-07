@@ -1,0 +1,29 @@
+
+
+
+.container {
+    padding: 25px;
+
+}
+
+.form-control {
+    min-width: 120px;
+    margin-bottom: 30px;
+}
+
+.loading {
+    height: 600px; 
+    display: 'flex';  
+    justify-content: 'center';
+    align-items: 'center';
+  }
+
+.marginBottom {
+    margin-bottom: 30px;
+  }
+
+.list {
+    height: 75vh;
+    overflow: auto;
+
+}
